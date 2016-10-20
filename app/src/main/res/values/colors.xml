@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_flashlight_black">#383838</color>
+    <color name="bg_ripple_flashlight_black">#38383838</color>
+    <color name="text_white">#cfcfcf</color>
+    <color name="text_off">#a3a3a3</color>
+    <color name="text_on">#ff6f59</color>
+</resources>

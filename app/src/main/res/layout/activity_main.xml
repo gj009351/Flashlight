@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/bg_flashlight_black"
+              android:gravity="center_horizontal"
+              android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/main_text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/app_name"
+        android:textColor="@color/text_white"
+        android:textSize="17sp"/>
+
+    <ImageView
+        android:id="@+id/main_image_dot"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/toggle_turn_on_off"
+        android:layout_marginTop="11dp"/>
+
+    <RelativeLayout
+        android:id="@+id/main_switch_on_off"
+        android:layout_width="150dp"
+        android:layout_marginTop="66dp"
+        android:layout_height="288dp"
+        android:background="@drawable/flashlight_toggle_bg">
+
+        <TextView
+            android:id="@+id/main_switch_text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:gravity="center"
+            android:textColor="@color/text_off"
+            android:textSize="20sp"
+            android:text="@string/light_off"/>
+
+        <ImageView
+            android:id="@+id/main_switch_btn"
+            android:layout_width="@dimen/main_switch_button_width"
+            android:layout_height="@dimen/main_switch_button_height"
+            android:layout_marginTop="@dimen/main_switch_button_top_margin"
+            android:background="@drawable/ic_switch_toggle"/>
+    </RelativeLayout>
+</LinearLayout>

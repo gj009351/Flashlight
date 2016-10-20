@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+    <string name="action_settings">Settings</string>
+    <string name="light_on">ON</string>
+    <string name="light_off">OFF</string>
+</resources>
